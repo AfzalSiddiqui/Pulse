@@ -103,8 +103,12 @@ final class IntegrationTests: XCTestCase {
 
         let text = await actor.currentText()
         XCTAssertEqual(text, "ABCDE")
-        XCTAssertEqual(await actor.tokenCount(), 5)
-        XCTAssertTrue(await actor.isFinished())
+
+        let count = await actor.tokenCount()
+        XCTAssertEqual(count, 5)
+
+        let finished = await actor.isFinished()
+        XCTAssertTrue(finished)
     }
 
     // MARK: - StreamController
@@ -173,7 +177,9 @@ final class IntegrationTests: XCTestCase {
         }
 
         XCTAssertEqual(count, tokenCount)
-        XCTAssertEqual(await actor.tokenCount(), tokenCount)
+
+        let actorCount = await actor.tokenCount()
+        XCTAssertEqual(actorCount, tokenCount)
     }
 
     // MARK: - Cancellation During Stream
@@ -189,12 +195,15 @@ final class IntegrationTests: XCTestCase {
             request: LLMRequest.prompt("test")
         )
 
-        var received = 0
+        let receivedCount = OSAllocatedUnfairLock(initialState: 0)
 
         let task = Task {
             for try await _ in stream {
-                received += 1
-                if received >= 10 {
+                let count = receivedCount.withLock { val -> Int in
+                    val += 1
+                    return val
+                }
+                if count >= 10 {
                     break
                 }
             }
@@ -202,7 +211,8 @@ final class IntegrationTests: XCTestCase {
 
         try await task.value
 
-        XCTAssertGreaterThanOrEqual(received, 10)
-        XCTAssertLessThan(received, 500)
+        let finalCount = receivedCount.withLock { $0 }
+        XCTAssertGreaterThanOrEqual(finalCount, 10)
+        XCTAssertLessThan(finalCount, 500)
     }
 }
