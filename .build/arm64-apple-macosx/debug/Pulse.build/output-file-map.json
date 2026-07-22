@@ -1,0 +1,131 @@
+{
+  "": {
+    "swift-dependencies": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/master.swiftdeps"
+  },
+  "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Concurrency/CancellationManager.swift": {
+    "dependencies": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/CancellationManager.d",
+    "object": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/CancellationManager.swift.o",
+    "swiftmodule": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/CancellationManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/CancellationManager.swiftdeps",
+    "diagnostics": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/CancellationManager.dia"
+  },
+  "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Concurrency/StreamActor.swift": {
+    "dependencies": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/StreamActor.d",
+    "object": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/StreamActor.swift.o",
+    "swiftmodule": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/StreamActor~partial.swiftmodule",
+    "swift-dependencies": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/StreamActor.swiftdeps",
+    "diagnostics": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/StreamActor.dia"
+  },
+  "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Configuration/PulseConfiguration.swift": {
+    "dependencies": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/PulseConfiguration.d",
+    "object": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/PulseConfiguration.swift.o",
+    "swiftmodule": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/PulseConfiguration~partial.swiftmodule",
+    "swift-dependencies": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/PulseConfiguration.swiftdeps",
+    "diagnostics": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/PulseConfiguration.dia"
+  },
+  "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Errors/PulseError.swift": {
+    "dependencies": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/PulseError.d",
+    "object": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/PulseError.swift.o",
+    "swiftmodule": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/PulseError~partial.swiftmodule",
+    "swift-dependencies": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/PulseError.swiftdeps",
+    "diagnostics": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/PulseError.dia"
+  },
+  "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Networking/HTTPStreamReader.swift": {
+    "dependencies": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/HTTPStreamReader.d",
+    "object": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/HTTPStreamReader.swift.o",
+    "swiftmodule": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/HTTPStreamReader~partial.swiftmodule",
+    "swift-dependencies": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/HTTPStreamReader.swiftdeps",
+    "diagnostics": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/HTTPStreamReader.dia"
+  },
+  "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Networking/LLMClient.swift": {
+    "dependencies": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/LLMClient.d",
+    "object": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/LLMClient.swift.o",
+    "swiftmodule": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/LLMClient~partial.swiftmodule",
+    "swift-dependencies": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/LLMClient.swiftdeps",
+    "diagnostics": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/LLMClient.dia"
+  },
+  "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Networking/LLMRequest.swift": {
+    "dependencies": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/LLMRequest.d",
+    "object": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/LLMRequest.swift.o",
+    "swiftmodule": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/LLMRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/LLMRequest.swiftdeps",
+    "diagnostics": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/LLMRequest.dia"
+  },
+  "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Networking/LLMStreamingProvider.swift": {
+    "dependencies": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/LLMStreamingProvider.d",
+    "object": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/LLMStreamingProvider.swift.o",
+    "swiftmodule": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/LLMStreamingProvider~partial.swiftmodule",
+    "swift-dependencies": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/LLMStreamingProvider.swiftdeps",
+    "diagnostics": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/LLMStreamingProvider.dia"
+  },
+  "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Networking/StreamingSession.swift": {
+    "dependencies": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/StreamingSession.d",
+    "object": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/StreamingSession.swift.o",
+    "swiftmodule": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/StreamingSession~partial.swiftmodule",
+    "swift-dependencies": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/StreamingSession.swiftdeps",
+    "diagnostics": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/StreamingSession.dia"
+  },
+  "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Observability/PulseMetrics.swift": {
+    "dependencies": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/PulseMetrics.d",
+    "object": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/PulseMetrics.swift.o",
+    "swiftmodule": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/PulseMetrics~partial.swiftmodule",
+    "swift-dependencies": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/PulseMetrics.swiftdeps",
+    "diagnostics": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/PulseMetrics.dia"
+  },
+  "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Pulse.swift": {
+    "dependencies": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/Pulse.d",
+    "object": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/Pulse.swift.o",
+    "swiftmodule": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/Pulse~partial.swiftmodule",
+    "swift-dependencies": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/Pulse.swiftdeps",
+    "diagnostics": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/Pulse.dia"
+  },
+  "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Rendering/TokenRenderer.swift": {
+    "dependencies": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/TokenRenderer.d",
+    "object": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/TokenRenderer.swift.o",
+    "swiftmodule": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/TokenRenderer~partial.swiftmodule",
+    "swift-dependencies": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/TokenRenderer.swiftdeps",
+    "diagnostics": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/TokenRenderer.dia"
+  },
+  "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/SSE/SSEDecoder.swift": {
+    "dependencies": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/SSEDecoder.d",
+    "object": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/SSEDecoder.swift.o",
+    "swiftmodule": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/SSEDecoder~partial.swiftmodule",
+    "swift-dependencies": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/SSEDecoder.swiftdeps",
+    "diagnostics": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/SSEDecoder.dia"
+  },
+  "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/SSE/SSEEvent.swift": {
+    "dependencies": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/SSEEvent.d",
+    "object": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/SSEEvent.swift.o",
+    "swiftmodule": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/SSEEvent~partial.swiftmodule",
+    "swift-dependencies": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/SSEEvent.swiftdeps",
+    "diagnostics": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/SSEEvent.dia"
+  },
+  "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/SSE/SSEParser.swift": {
+    "dependencies": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/SSEParser.d",
+    "object": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/SSEParser.swift.o",
+    "swiftmodule": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/SSEParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/SSEParser.swiftdeps",
+    "diagnostics": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/SSEParser.dia"
+  },
+  "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Streaming/BackpressureManager.swift": {
+    "dependencies": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/BackpressureManager.d",
+    "object": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/BackpressureManager.swift.o",
+    "swiftmodule": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/BackpressureManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/BackpressureManager.swiftdeps",
+    "diagnostics": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/BackpressureManager.dia"
+  },
+  "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Streaming/StreamController.swift": {
+    "dependencies": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/StreamController.d",
+    "object": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/StreamController.swift.o",
+    "swiftmodule": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/StreamController~partial.swiftmodule",
+    "swift-dependencies": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/StreamController.swiftdeps",
+    "diagnostics": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/StreamController.dia"
+  },
+  "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Streaming/TokenStream.swift": {
+    "dependencies": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/TokenStream.d",
+    "object": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/TokenStream.swift.o",
+    "swiftmodule": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/TokenStream~partial.swiftmodule",
+    "swift-dependencies": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/TokenStream.swiftdeps",
+    "diagnostics": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/TokenStream.dia"
+  }
+}

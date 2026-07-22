@@ -1,0 +1,26 @@
+{
+  "": {
+    "swift-dependencies": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseDemo.build/master.swiftdeps"
+  },
+  "/Users/mac/Desktop/GithubProject/Pulse/Sources/PulseDemo/ChatViewModel.swift": {
+    "dependencies": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseDemo.build/ChatViewModel.d",
+    "object": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseDemo.build/ChatViewModel.swift.o",
+    "swiftmodule": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseDemo.build/ChatViewModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseDemo.build/ChatViewModel.swiftdeps",
+    "diagnostics": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseDemo.build/ChatViewModel.dia"
+  },
+  "/Users/mac/Desktop/GithubProject/Pulse/Sources/PulseDemo/MockLLMProvider.swift": {
+    "dependencies": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseDemo.build/MockLLMProvider.d",
+    "object": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseDemo.build/MockLLMProvider.swift.o",
+    "swiftmodule": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseDemo.build/MockLLMProvider~partial.swiftmodule",
+    "swift-dependencies": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseDemo.build/MockLLMProvider.swiftdeps",
+    "diagnostics": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseDemo.build/MockLLMProvider.dia"
+  },
+  "/Users/mac/Desktop/GithubProject/Pulse/Sources/PulseDemo/PulseDemoApp.swift": {
+    "dependencies": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseDemo.build/PulseDemoApp.d",
+    "object": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseDemo.build/PulseDemoApp.swift.o",
+    "swiftmodule": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseDemo.build/PulseDemoApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseDemo.build/PulseDemoApp.swiftdeps",
+    "diagnostics": "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseDemo.build/PulseDemoApp.dia"
+  }
+}

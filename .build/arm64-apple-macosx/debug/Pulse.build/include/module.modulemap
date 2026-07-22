@@ -1,0 +1,3 @@
+module Pulse {
+    header "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/include/Pulse-Swift.h"
+}

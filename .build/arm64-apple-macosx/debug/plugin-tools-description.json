@@ -1,0 +1,1454 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulsePackageTests.xctest/Contents/MacOS/PulsePackageTests",
+      "packagePath" : "/Users/mac/Desktop/GithubProject/Pulse",
+      "productName" : "PulsePackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.Pulse-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode26.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/sources",
+      "importPath" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Concurrency/CancellationManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Concurrency/StreamActor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Configuration/PulseConfiguration.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Errors/PulseError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Networking/HTTPStreamReader.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Networking/LLMClient.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Networking/LLMRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Networking/LLMStreamingProvider.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Networking/StreamingSession.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Observability/PulseMetrics.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Pulse.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Rendering/TokenRenderer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/SSE/SSEDecoder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/SSE/SSEEvent.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/SSE/SSEParser.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Streaming/BackpressureManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Streaming/StreamController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Streaming/TokenStream.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/swift-version--7B936BF77151DDD.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "Pulse",
+      "moduleOutputPath" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Modules/Pulse.swiftmodule",
+      "objects" : [
+        "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/CancellationManager.swift.o",
+        "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/StreamActor.swift.o",
+        "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/PulseConfiguration.swift.o",
+        "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/PulseError.swift.o",
+        "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/HTTPStreamReader.swift.o",
+        "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/LLMClient.swift.o",
+        "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/LLMRequest.swift.o",
+        "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/LLMStreamingProvider.swift.o",
+        "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/StreamingSession.swift.o",
+        "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/PulseMetrics.swift.o",
+        "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/Pulse.swift.o",
+        "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/TokenRenderer.swift.o",
+        "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/SSEDecoder.swift.o",
+        "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/SSEEvent.swift.o",
+        "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/SSEParser.swift.o",
+        "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/BackpressureManager.swift.o",
+        "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/StreamController.swift.o",
+        "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/TokenStream.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/include/Pulse-Swift.h",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Applications/Xcode26.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-F",
+        "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "pulse"
+      ],
+      "outputFileMapPath" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/CancellationManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/StreamActor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/PulseConfiguration.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/PulseError.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/HTTPStreamReader.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/LLMClient.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/LLMRequest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/LLMStreamingProvider.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/StreamingSession.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/PulseMetrics.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/Pulse.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/TokenRenderer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/SSEDecoder.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/SSEEvent.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/SSEParser.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/BackpressureManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/StreamController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/TokenStream.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Modules/Pulse.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Concurrency/CancellationManager.swift",
+        "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Concurrency/StreamActor.swift",
+        "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Configuration/PulseConfiguration.swift",
+        "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Errors/PulseError.swift",
+        "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Networking/HTTPStreamReader.swift",
+        "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Networking/LLMClient.swift",
+        "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Networking/LLMRequest.swift",
+        "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Networking/LLMStreamingProvider.swift",
+        "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Networking/StreamingSession.swift",
+        "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Observability/PulseMetrics.swift",
+        "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Pulse.swift",
+        "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Rendering/TokenRenderer.swift",
+        "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/SSE/SSEDecoder.swift",
+        "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/SSE/SSEEvent.swift",
+        "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/SSE/SSEParser.swift",
+        "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Streaming/BackpressureManager.swift",
+        "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Streaming/StreamController.swift",
+        "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Streaming/TokenStream.swift"
+      ],
+      "tempsPath" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.PulseDemo-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode26.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseDemo.build/sources",
+      "importPath" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Sources/PulseDemo/ChatViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Sources/PulseDemo/MockLLMProvider.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Sources/PulseDemo/PulseDemoApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/swift-version--7B936BF77151DDD.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Modules/Pulse.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseDemo.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "PulseDemo",
+      "moduleOutputPath" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Modules/PulseDemo.swiftmodule",
+      "objects" : [
+        "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseDemo.build/ChatViewModel.swift.o",
+        "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseDemo.build/MockLLMProvider.swift.o",
+        "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseDemo.build/PulseDemoApp.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "PulseDemo_main",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Applications/Xcode26.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-F",
+        "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "pulse"
+      ],
+      "outputFileMapPath" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseDemo.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseDemo.build/ChatViewModel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseDemo.build/MockLLMProvider.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseDemo.build/PulseDemoApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Modules/PulseDemo.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/mac/Desktop/GithubProject/Pulse/Sources/PulseDemo/ChatViewModel.swift",
+        "/Users/mac/Desktop/GithubProject/Pulse/Sources/PulseDemo/MockLLMProvider.swift",
+        "/Users/mac/Desktop/GithubProject/Pulse/Sources/PulseDemo/PulseDemoApp.swift"
+      ],
+      "tempsPath" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseDemo.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.PulsePackageTests-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode26.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulsePackageTests.build/sources",
+      "importPath" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulsePackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/swift-version--7B936BF77151DDD.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Modules/PulseTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulsePackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "PulsePackageTests",
+      "moduleOutputPath" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Modules/PulsePackageTests.swiftmodule",
+      "objects" : [
+        "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulsePackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulsePackageTests.build/include/PulsePackageTests-Swift.h",
+        "-plugin-path",
+        "/Applications/Xcode26.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-F",
+        "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "pulse"
+      ],
+      "outputFileMapPath" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulsePackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulsePackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Modules/PulsePackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulsePackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulsePackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.PulseTests-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode26.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseTests.build/sources",
+      "importPath" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Tests/PulseTests/BackpressureManagerTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Tests/PulseTests/CancellationTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Tests/PulseTests/ErrorHandlingTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Tests/PulseTests/IntegrationTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Tests/PulseTests/MetricsTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Tests/PulseTests/MockHelpers.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Tests/PulseTests/SSEDecoderTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Tests/PulseTests/SSEParserTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Tests/PulseTests/StreamActorTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Tests/PulseTests/TokenStreamTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/swift-version--7B936BF77151DDD.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Modules/Pulse.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "PulseTests",
+      "moduleOutputPath" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Modules/PulseTests.swiftmodule",
+      "objects" : [
+        "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseTests.build/BackpressureManagerTests.swift.o",
+        "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseTests.build/CancellationTests.swift.o",
+        "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseTests.build/ErrorHandlingTests.swift.o",
+        "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseTests.build/IntegrationTests.swift.o",
+        "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseTests.build/MetricsTests.swift.o",
+        "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseTests.build/MockHelpers.swift.o",
+        "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseTests.build/SSEDecoderTests.swift.o",
+        "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseTests.build/SSEParserTests.swift.o",
+        "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseTests.build/StreamActorTests.swift.o",
+        "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseTests.build/TokenStreamTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Applications/Xcode26.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-F",
+        "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "pulse"
+      ],
+      "outputFileMapPath" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseTests.build/BackpressureManagerTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseTests.build/CancellationTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseTests.build/ErrorHandlingTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseTests.build/IntegrationTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseTests.build/MetricsTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseTests.build/MockHelpers.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseTests.build/SSEDecoderTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseTests.build/SSEParserTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseTests.build/StreamActorTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseTests.build/TokenStreamTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Modules/PulseTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/mac/Desktop/GithubProject/Pulse/Tests/PulseTests/BackpressureManagerTests.swift",
+        "/Users/mac/Desktop/GithubProject/Pulse/Tests/PulseTests/CancellationTests.swift",
+        "/Users/mac/Desktop/GithubProject/Pulse/Tests/PulseTests/ErrorHandlingTests.swift",
+        "/Users/mac/Desktop/GithubProject/Pulse/Tests/PulseTests/IntegrationTests.swift",
+        "/Users/mac/Desktop/GithubProject/Pulse/Tests/PulseTests/MetricsTests.swift",
+        "/Users/mac/Desktop/GithubProject/Pulse/Tests/PulseTests/MockHelpers.swift",
+        "/Users/mac/Desktop/GithubProject/Pulse/Tests/PulseTests/SSEDecoderTests.swift",
+        "/Users/mac/Desktop/GithubProject/Pulse/Tests/PulseTests/SSEParserTests.swift",
+        "/Users/mac/Desktop/GithubProject/Pulse/Tests/PulseTests/StreamActorTests.swift",
+        "/Users/mac/Desktop/GithubProject/Pulse/Tests/PulseTests/TokenStreamTests.swift"
+      ],
+      "tempsPath" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "Pulse" : [
+      "/Applications/Xcode26.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "Pulse",
+      "-package-name",
+      "pulse",
+      "-c",
+      "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Concurrency/CancellationManager.swift",
+      "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Concurrency/StreamActor.swift",
+      "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Configuration/PulseConfiguration.swift",
+      "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Errors/PulseError.swift",
+      "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Networking/HTTPStreamReader.swift",
+      "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Networking/LLMClient.swift",
+      "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Networking/LLMRequest.swift",
+      "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Networking/LLMStreamingProvider.swift",
+      "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Networking/StreamingSession.swift",
+      "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Observability/PulseMetrics.swift",
+      "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Pulse.swift",
+      "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Rendering/TokenRenderer.swift",
+      "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/SSE/SSEDecoder.swift",
+      "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/SSE/SSEEvent.swift",
+      "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/SSE/SSEParser.swift",
+      "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Streaming/BackpressureManager.swift",
+      "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Streaming/StreamController.swift",
+      "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Streaming/TokenStream.swift",
+      "-I",
+      "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/include/Pulse-Swift.h",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Applications/Xcode26.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-F",
+      "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "pulse",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode26.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "PulseDemo" : [
+      "/Applications/Xcode26.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "PulseDemo",
+      "-package-name",
+      "pulse",
+      "-c",
+      "/Users/mac/Desktop/GithubProject/Pulse/Sources/PulseDemo/ChatViewModel.swift",
+      "/Users/mac/Desktop/GithubProject/Pulse/Sources/PulseDemo/MockLLMProvider.swift",
+      "/Users/mac/Desktop/GithubProject/Pulse/Sources/PulseDemo/PulseDemoApp.swift",
+      "-I",
+      "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "PulseDemo_main",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Applications/Xcode26.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-F",
+      "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "pulse",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode26.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "PulsePackageTests" : [
+      "/Applications/Xcode26.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "PulsePackageTests",
+      "-package-name",
+      "pulse",
+      "-c",
+      "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulsePackageTests.derived/runner.swift",
+      "-I",
+      "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulsePackageTests.build/include/PulsePackageTests-Swift.h",
+      "-plugin-path",
+      "/Applications/Xcode26.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-F",
+      "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "pulse",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode26.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "PulseTests" : [
+      "/Applications/Xcode26.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "PulseTests",
+      "-package-name",
+      "pulse",
+      "-c",
+      "/Users/mac/Desktop/GithubProject/Pulse/Tests/PulseTests/BackpressureManagerTests.swift",
+      "/Users/mac/Desktop/GithubProject/Pulse/Tests/PulseTests/CancellationTests.swift",
+      "/Users/mac/Desktop/GithubProject/Pulse/Tests/PulseTests/ErrorHandlingTests.swift",
+      "/Users/mac/Desktop/GithubProject/Pulse/Tests/PulseTests/IntegrationTests.swift",
+      "/Users/mac/Desktop/GithubProject/Pulse/Tests/PulseTests/MetricsTests.swift",
+      "/Users/mac/Desktop/GithubProject/Pulse/Tests/PulseTests/MockHelpers.swift",
+      "/Users/mac/Desktop/GithubProject/Pulse/Tests/PulseTests/SSEDecoderTests.swift",
+      "/Users/mac/Desktop/GithubProject/Pulse/Tests/PulseTests/SSEParserTests.swift",
+      "/Users/mac/Desktop/GithubProject/Pulse/Tests/PulseTests/StreamActorTests.swift",
+      "/Users/mac/Desktop/GithubProject/Pulse/Tests/PulseTests/TokenStreamTests.swift",
+      "-I",
+      "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Applications/Xcode26.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-F",
+      "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode26.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "pulse",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode26.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "Pulse" : [
+
+    ],
+    "PulseDemo" : [
+      "Pulse"
+    ],
+    "PulsePackageTests" : [
+      "PulseTests",
+      "Pulse"
+    ],
+    "PulseTests" : [
+      "Pulse"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulsePackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulsePackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Concurrency/CancellationManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Concurrency/StreamActor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Configuration/PulseConfiguration.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Errors/PulseError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Networking/HTTPStreamReader.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Networking/LLMClient.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Networking/LLMRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Networking/LLMStreamingProvider.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Networking/StreamingSession.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Observability/PulseMetrics.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Pulse.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Rendering/TokenRenderer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/SSE/SSEDecoder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/SSE/SSEEvent.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/SSE/SSEParser.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Streaming/BackpressureManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Streaming/StreamController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Sources/Pulse/Streaming/TokenStream.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/sources"
+    },
+    "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseDemo-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseDemo-entitlement.plist"
+    },
+    "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseDemo.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Sources/PulseDemo/ChatViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Sources/PulseDemo/MockLLMProvider.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Sources/PulseDemo/PulseDemoApp.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseDemo.build/sources"
+    },
+    "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseDemo.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/BackpressureManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/CancellationManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/HTTPStreamReader.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/LLMClient.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/LLMRequest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/LLMStreamingProvider.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/Pulse.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/PulseConfiguration.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/PulseError.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/PulseMetrics.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/SSEDecoder.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/SSEEvent.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/SSEParser.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/StreamActor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/StreamController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/StreamingSession.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/TokenRenderer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/TokenStream.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseDemo.build/ChatViewModel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseDemo.build/MockLLMProvider.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseDemo.build/PulseDemoApp.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseDemo.product/Objects.LinkFileList"
+    },
+    "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulsePackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulsePackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulsePackageTests.build/sources"
+    },
+    "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulsePackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/BackpressureManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/CancellationManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/HTTPStreamReader.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/LLMClient.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/LLMRequest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/LLMStreamingProvider.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/Pulse.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/PulseConfiguration.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/PulseError.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/PulseMetrics.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/SSEDecoder.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/SSEEvent.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/SSEParser.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/StreamActor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/StreamController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/StreamingSession.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/TokenRenderer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/Pulse.build/TokenStream.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulsePackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseTests.build/BackpressureManagerTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseTests.build/CancellationTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseTests.build/ErrorHandlingTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseTests.build/IntegrationTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseTests.build/MetricsTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseTests.build/MockHelpers.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseTests.build/SSEDecoderTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseTests.build/SSEParserTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseTests.build/StreamActorTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseTests.build/TokenStreamTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulsePackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Tests/PulseTests/BackpressureManagerTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Tests/PulseTests/CancellationTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Tests/PulseTests/ErrorHandlingTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Tests/PulseTests/IntegrationTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Tests/PulseTests/MetricsTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Tests/PulseTests/MockHelpers.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Tests/PulseTests/SSEDecoderTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Tests/PulseTests/SSEParserTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Tests/PulseTests/StreamActorTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/Pulse/Tests/PulseTests/TokenStreamTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/PulseTests.build/sources"
+    },
+    "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/swift-version--7B936BF77151DDD.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode26.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/mac/Desktop/GithubProject/Pulse/.build/arm64-apple-macosx/debug/swift-version--7B936BF77151DDD.txt"
+    }
+  }
+}
