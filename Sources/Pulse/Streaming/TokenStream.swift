@@ -8,31 +8,27 @@ import Foundation
 public struct TokenStream: AsyncSequence, Sendable {
     public typealias Element = String
 
-    private let makeStream: @Sendable (AsyncThrowingStream<String, Error>.Continuation) -> Void
-
-    // The underlying stream, created lazily.
-    private let stream: AsyncThrowingStream<String, Error>
+    // The underlying stream.
+    private let stream: AsyncThrowingStream<String, any Error>
 
     // MARK: - Init
 
     /// Create a ``TokenStream`` from a builder closure that drives a continuation.
     public init(
-        _ build: @Sendable @escaping (AsyncThrowingStream<String, Error>.Continuation) -> Void
+        _ build: @Sendable @escaping (AsyncThrowingStream<String, any Error>.Continuation) -> Void
     ) {
-        self.makeStream = build
-        self.stream = AsyncThrowingStream<String, Error>(build)
+        self.stream = AsyncThrowingStream<String, any Error>(bufferingPolicy: .unbounded, build)
     }
 
     /// Create a ``TokenStream`` from an existing `AsyncThrowingStream`.
-    public init(wrapping stream: AsyncThrowingStream<String, Error>) {
+    public init(wrapping stream: AsyncThrowingStream<String, any Error>) {
         self.stream = stream
-        self.makeStream = { _ in }
     }
 
     // MARK: - AsyncSequence
 
     public struct AsyncIterator: AsyncIteratorProtocol {
-        var base: AsyncThrowingStream<String, Error>.AsyncIterator
+        var base: AsyncThrowingStream<String, any Error>.AsyncIterator
 
         public mutating func next() async throws -> String? {
             try await base.next()
