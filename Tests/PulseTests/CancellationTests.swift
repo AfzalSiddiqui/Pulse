@@ -7,45 +7,62 @@ final class CancellationTests: XCTestCase {
 
     func testRegisterAndCancel() async {
         let manager = CancellationManager()
-        var didCancel = false
+        let didCancel = OSAllocatedUnfairLock(initialState: false)
 
-        let task = Task { try? await Task.sleep(for: .seconds(100)) }
-        let id = await manager.register(task: task, onCancel: { didCancel = true })
+        let task = Task<Void, Never> {
+            try? await Task.sleep(for: .seconds(100))
+        }
+        let id = await manager.register(task: task, onCancel: {
+            didCancel.withLock { $0 = true }
+        })
 
         await manager.cancel(id: id)
 
-        XCTAssertTrue(didCancel)
-        XCTAssertEqual(await manager.activeCount, 0)
+        let cancelled = didCancel.withLock { $0 }
+        XCTAssertTrue(cancelled)
+
+        let count = await manager.activeCount
+        XCTAssertEqual(count, 0)
     }
 
     func testCancelAll() async {
         let manager = CancellationManager()
-        var cancelCount = 0
+        let cancelCount = OSAllocatedUnfairLock(initialState: 0)
 
         for _ in 0..<5 {
-            let task = Task { try? await Task.sleep(for: .seconds(100)) }
-            _ = await manager.register(task: task, onCancel: { cancelCount += 1 })
+            let task = Task<Void, Never> {
+                try? await Task.sleep(for: .seconds(100))
+            }
+            _ = await manager.register(task: task, onCancel: {
+                cancelCount.withLock { $0 += 1 }
+            })
         }
 
-        XCTAssertEqual(await manager.activeCount, 5)
+        let beforeCount = await manager.activeCount
+        XCTAssertEqual(beforeCount, 5)
 
         await manager.cancelAll()
 
-        XCTAssertEqual(cancelCount, 5)
-        XCTAssertEqual(await manager.activeCount, 0)
+        let total = cancelCount.withLock { $0 }
+        XCTAssertEqual(total, 5)
+
+        let afterCount = await manager.activeCount
+        XCTAssertEqual(afterCount, 0)
     }
 
     func testDeregister() async {
         let manager = CancellationManager()
 
-        let task = Task {}
+        let task = Task<Void, Never> {}
         let id = await manager.register(task: task)
 
-        XCTAssertEqual(await manager.activeCount, 1)
+        let beforeCount = await manager.activeCount
+        XCTAssertEqual(beforeCount, 1)
 
         await manager.deregister(id: id)
 
-        XCTAssertEqual(await manager.activeCount, 0)
+        let afterCount = await manager.activeCount
+        XCTAssertEqual(afterCount, 0)
     }
 
     // MARK: - Task Cancellation Propagation
@@ -59,10 +76,10 @@ final class CancellationTests: XCTestCase {
         let request = LLMRequest.prompt("test")
         let stream = try await provider.stream(request: request)
 
-        var collected: [String] = []
+        let collected = OSAllocatedUnfairLock(initialState: [String]())
         let task = Task {
             for try await token in stream {
-                collected.append(token)
+                collected.withLock { $0.append(token) }
             }
         }
 
@@ -71,10 +88,11 @@ final class CancellationTests: XCTestCase {
         task.cancel()
 
         // Wait for cancellation to propagate
-        try? await task.value
+        _ = try? await task.value
 
+        let result = collected.withLock { $0 }
         // Should have received some tokens but not all 1000
-        XCTAssertTrue(collected.count < 1000)
-        XCTAssertTrue(collected.count > 0)
+        XCTAssertTrue(result.count < 1000)
+        XCTAssertTrue(result.count > 0)
     }
 }
