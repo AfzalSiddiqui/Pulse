@@ -20,7 +20,7 @@ public struct TokenStream: AsyncSequence, Sendable {
         _ build: @Sendable @escaping (AsyncThrowingStream<String, Error>.Continuation) -> Void
     ) {
         self.makeStream = build
-        self.stream = AsyncThrowingStream(build)
+        self.stream = AsyncThrowingStream<String, Error>(build)
     }
 
     /// Create a ``TokenStream`` from an existing `AsyncThrowingStream`.
