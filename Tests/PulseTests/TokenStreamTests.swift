@@ -86,21 +86,24 @@ final class TokenStreamTests: XCTestCase {
             }
         }
 
-        var collected: [String] = []
+        let collected = OSAllocatedUnfairLock(initialState: [String]())
 
         let consumeTask = Task {
+            var local: [String] = []
             for try await token in stream {
-                collected.append(token)
-                if collected.count >= 5 {
+                local.append(token)
+                if local.count >= 5 {
                     break
                 }
             }
+            collected.withLock { $0 = local }
         }
 
         try await consumeTask.value
 
+        let result = collected.withLock { $0 }
         // Should have stopped around 5 tokens
-        XCTAssertEqual(collected.count, 5)
+        XCTAssertEqual(result.count, 5)
     }
 
     // MARK: - Large Stream
