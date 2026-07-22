@@ -53,7 +53,9 @@ struct ChatView: View {
                 )
             }
             .navigationTitle("Pulse Demo")
+            #if os(iOS)
             .navigationBarTitleDisplayMode(.inline)
+            #endif
         }
     }
 }
@@ -79,7 +81,7 @@ struct MessageBubble: View {
                     .background(
                         message.role == .user
                             ? Color.blue
-                            : Color(.systemGray5)
+                            : Color.gray.opacity(0.2)
                     )
                     .foregroundStyle(
                         message.role == .user ? .white : .primary
@@ -103,7 +105,7 @@ struct MetricsBar: View {
             .foregroundStyle(.secondary)
             .frame(maxWidth: .infinity)
             .padding(.vertical, 6)
-            .background(Color(.systemGray6))
+            .background(Color.gray.opacity(0.1))
     }
 }
 
@@ -126,7 +128,7 @@ struct InputBar: View {
                     .lineLimit(1...5)
                     .padding(.horizontal, 12)
                     .padding(.vertical, 8)
-                    .background(Color(.systemGray6))
+                    .background(Color.gray.opacity(0.1))
                     .clipShape(RoundedRectangle(cornerRadius: 20))
                     .disabled(isStreaming)
 
