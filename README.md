@@ -2,7 +2,7 @@
 
 **Production-grade LLM token streaming engine for iOS.**
 
-Pulse is the streaming infrastructure layer powering [NOVA](https://github.com/AfzalSiddiqui/NOVAVoiceBankingAI), a voice-first AI banking assistant. It delivers a ChatGPT-like streaming experience on iOS with low latency, smooth SwiftUI rendering, immediate cancellation, and memory-efficient processing.
+Pulse is the streaming infrastructure layer powering [NOVA](https://github.com/AfzalSiddiqui/NOVAVoiceBankingAI), a voice-first AI banking assistant. It delivers a ChatGPT-like streaming experience on iOS with low latency, smooth SwiftUI rendering, immediate cancellation, and memory-efficient processing..
 
 ---
 
