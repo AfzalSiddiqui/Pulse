@@ -1,4 +1,4 @@
-// swift-tools-version: 7.0
+// swift-tools-version: 8.0
 
 import PackageDescription
 
